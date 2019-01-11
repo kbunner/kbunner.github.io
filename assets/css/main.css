@@ -3057,6 +3057,7 @@ input, select, textarea {
 					.spotlight .content header.major h2:after {
 						margin-left: auto;
 						margin-right: auto;
+						font-weight: bold;
 					}
 
 					.spotlight .content .actions {
