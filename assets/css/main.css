@@ -2960,6 +2960,9 @@ input, select, textarea {
 		-ms-align-items: center;
 		align-items: center;
 		margin: 0 0 2em 0;
+		font-family: elido, sans-serif;
+		font-style: normal;
+		font-weight: 300;
 	}
 
 		.spotlight .content {
