@@ -117,9 +117,6 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-img-main-logo {
-  border-radius: 50%;
-}
 
 /* Type */
 
@@ -3105,6 +3102,7 @@ img-main-logo {
 					display: block;
 					margin: 0 auto;
 					max-width: 50%;
+					border-radius: 50%;
 				}
 
 		@media screen and (max-width: 1280px) {
