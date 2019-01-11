@@ -45,8 +45,6 @@
 											<li><a href="http://www.yugtun.com/" class="button">Yugtun Webpage</a></li>
 										</ul>
 									</div>
-									<span class="image"><img src="images/grad_flowers.jpg" alt="" /></span>
-									<span class="image"><img src="images/point_reyes.jpg" alt="" /></span>
 								</div>
 							</section>
 
@@ -74,18 +72,18 @@
 							<section id="skull" class="main special">
 								<header class="major">
 									<h2>Skull</h2>
-									<p>Overview: Dora was a dynamic web application built for my Senior Project. Dora allows users to enter a location and a variety of preferences and receive three suggestions for different meals or activities. </p>
+									<p>Overview: This project used Reinforcement Learning Algorithms to create an agent to make optimal decisions in the card game, Skull. </p>
 
-									<p>The motivating idea was that while there are an abundance of resources to help plan and find places to do while traveling, the amount of choices available can sometimes be overwhelming. Our application takes in preferences, learns over time, and gives the user 3 option rather than hundreds. The backend works by taking in the user’s preferences, making API calls to Yelp and Google Places, and then makes some choices about which options to return to the user. This was my first time doing web development and using APIs, so there was a bit of a learning curve, but it was a great opportunity to develop a project completely from scratch. </p>
+									<p>Skull is a multi-player card game, which consists of two phases. Each player begins with 4 cards- 3 flowers and 1 skull. In the first phase, players take turns playing one of their cards in a pile until a player decides to place a bet. When a player places a bet, the second phase begins. The bet represents the number of cards with a flower on it that the player believes they can flip over. Each player has the opportunity to raise the bet until one player outbids all their opponents. If the player is successful in flipping, they win 1 point and if they are not, they lose a card. A player wins the entire game if they have 2 points. By running thousands of simulations, our goal was to train our agent to play against its opponents to have a better idea of when it should outbid, when to play more conservatively, and which cards to flip over. Our results were fairly good, beating a random agent.  </p>
 
-									<p>Tools: JavaScript, HTML, CSS, Node.JS </p>
+									<p>Tools: Julia </p>
 
-									<p>Made for Senior Project Course, CS 294S: Research Project in Software Systems and Security</p>
+									<p>Made for AA 228/CS 238 Decision Making Under Uncertainty</p>
 								</header>
 								<footer class="major">
 									<ul class="actions special">
 										<li><a href="www.linkedin.com/in/kathryn-bunner" class="button primary">LinkedIn</a></li>
-										<li><a href="https://github.com/eniasebiomo/dora" class="button">GitHub</a></li>
+										<li><a href="https://github.com/lukeasperger/HarcrossDecisions" class="button">GitHub</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -93,14 +91,14 @@
 						<!-- Chatbot -->
 							<section id="chat" class="main special">
 								<header class="major">
-									<h2>Chatbot</h2>
-									<p>Overview: Dora was a dynamic web application built for my Senior Project. Dora allows users to enter a location and a variety of preferences and receive three suggestions for different meals or activities. </p>
+									<h2>Chatbot: Movie Suggestor</h2>
+									<p>Overview: This project is an interactive Chatbot on the terminal that recommends movies based on the user’s preferences and sentiment. To do this it incorporated algorithms like Naive Bayes, Porter Stemmer, regular expressions, spell check, and logarithmic based recommendations. </p>
 
-									<p>The motivating idea was that while there are an abundance of resources to help plan and find places to do while traveling, the amount of choices available can sometimes be overwhelming. Our application takes in preferences, learns over time, and gives the user 3 option rather than hundreds. The backend works by taking in the user’s preferences, making API calls to Yelp and Google Places, and then makes some choices about which options to return to the user. This was my first time doing web development and using APIs, so there was a bit of a learning curve, but it was a great opportunity to develop a project completely from scratch. </p>
+									<p>To make the recommendations, the Chatbot would ask the user to list 3 movies they have seen and what they thought about them. It would parse the input, determine how positive or negative they felt about each movie, and store it in a dict structure. The Chatbot had access to a database with thousands of motive titles, year released, and three genre adjectives. Once they had an idea of what the user’s interests were, it would use a Page Rank style algorithm to suggest new films to the user. This was a pair programming project and some of my biggest contributions were determining the sentiment, parsing out the movie title, and implementing the spell check.  </p>
 
-									<p>Tools: JavaScript, HTML, CSS, Node.JS </p>
+									<p>Tools: Python </p>
 
-									<p>Made for Senior Project Course, CS 294S: Research Project in Software Systems and Security</p>
+									<p>Made for final project of CS 124: From Languages to Information (NLP)</p>
 								</header>
 								<footer class="major">
 									<ul class="actions special">
@@ -114,13 +112,33 @@
 							<section id="reducer" class="main special">
 								<header class="major">
 									<h2>Map Reducer</h2>
-									<p>Overview: Dora was a dynamic web application built for my Senior Project. Dora allows users to enter a location and a variety of preferences and receive three suggestions for different meals or activities. </p>
+									<p>Overview: Built a fully operational MapReduce Framework utilizing multiprocessing, networking, threading, and distributed computing techniques</p>
 
-									<p>The motivating idea was that while there are an abundance of resources to help plan and find places to do while traveling, the amount of choices available can sometimes be overwhelming. Our application takes in preferences, learns over time, and gives the user 3 option rather than hundreds. The backend works by taking in the user’s preferences, making API calls to Yelp and Google Places, and then makes some choices about which options to return to the user. This was my first time doing web development and using APIs, so there was a bit of a learning curve, but it was a great opportunity to develop a project completely from scratch. </p>
+									<p>For this project, our system would take in an input file, like a txt of Homer’s Odyssey, create an intermediate file of sorted key/value vector pairs, and generate an output file of sorted key/value pairs. The system creates a thread pool to delegate the work over multiple computers </p>
 
-									<p>Tools: JavaScript, HTML, CSS, Node.JS </p>
+									<p>Tools: C++ </p>
 
-									<p>Made for Senior Project Course, CS 294S: Research Project in Software Systems and Security</p>
+									<p>Made for CS 110: Principles of Computer Systems</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="www.linkedin.com/in/kathryn-bunner" class="button primary">LinkedIn</a></li>
+										<li><a href="https://github.com/eniasebiomo/dora" class="button">GitHub</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Web Security -->
+							<section id="security" class="main special">
+								<header class="major">
+									<h2>Web Security</h2>
+									<p>Overview: This two-part project helped introduce various OWASP top 10 web vulnerabilities by having us first implement a series of hacks and then implement preventions to defend these web attacks. </p>
+
+									<p>The web application we were interacting with was a banking website which allowed users to manage a new type of cryptocurrency. They could create accounts, transfer the currency to other users, and view user profiles. The web app ran in a Docker container.. Some of the attacks were things like, cookie theft and account hijacking with cookies, Cross Site Forgery Request to allow the attacker to transfer money to its account from another user’s account, SQL injection, and a worm which would be triggered if a user viewed an infected profile, initially the attackers. It would then force the victim to send the attacker money and update the victim’s profile to also contain the worm. </p>
+
+									<p>Tools: JavaScript, HTML, C++, Docker</p>
+
+									<p>Made for CS 155: Computer and Network Security</p>
 								</header>
 								<footer class="major">
 									<ul class="actions special">
@@ -134,18 +152,18 @@
 							<section id="bunny" class="main special">
 								<header class="major">
 									<h2>Bunny World</h2>
-									<p>Overview: Dora was a dynamic web application built for my Senior Project. Dora allows users to enter a location and a variety of preferences and receive three suggestions for different meals or activities. </p>
+									<p>Overview: A team project to build an android application for a graphical adventure game, that allows for playing the game and editing the game components. The game editor is a complete, graphical, document oriented, OOP/GUI project. </p>
 
-									<p>The motivating idea was that while there are an abundance of resources to help plan and find places to do while traveling, the amount of choices available can sometimes be overwhelming. Our application takes in preferences, learns over time, and gives the user 3 option rather than hundreds. The backend works by taking in the user’s preferences, making API calls to Yelp and Google Places, and then makes some choices about which options to return to the user. This was my first time doing web development and using APIs, so there was a bit of a learning curve, but it was a great opportunity to develop a project completely from scratch. </p>
+									<p>The back-end of the game was an object-oriented design, allowing all the game components to be objects in our architecture. A user has the options to create a new game, play and edit an existing game, or delete an existing game. Through the editing process the user can create new pages and objects or rename, resize, move, or delete them. There were also scripts in the game, which would allow for things like animation or page movement in the game playing interface. My main contributions included the creation and maintenance of the database to store game components and creating the scripts and their triggers. </p>
 
-									<p>Tools: JavaScript, HTML, CSS, Node.JS </p>
+									<p>Tools: Java, SQLite,Android Studio</p>
 
-									<p>Made for Senior Project Course, CS 294S: Research Project in Software Systems and Security</p>
+									<p>Made for final project of CS 108: Object Oriented System Design </p>
 								</header>
 								<footer class="major">
 									<ul class="actions special">
 										<li><a href="www.linkedin.com/in/kathryn-bunner" class="button primary">LinkedIn</a></li>
-										<li><a href="https://github.com/eniasebiomo/dora" class="button">GitHub</a></li>
+										<li><a href="https://github.com/ashi-agrawal/bunny-world" class="button">GitHub</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -154,13 +172,13 @@
 							<section id="kb" class="main special">
 								<header class="major">
 									<h2>kathrynbunner.com</h2>
-									<p>Overview: Dora was a dynamic web application built for my Senior Project. Dora allows users to enter a location and a variety of preferences and receive three suggestions for different meals or activities. </p>
+									<p>Overview:  </p>
 
-									<p>The motivating idea was that while there are an abundance of resources to help plan and find places to do while traveling, the amount of choices available can sometimes be overwhelming. Our application takes in preferences, learns over time, and gives the user 3 option rather than hundreds. The backend works by taking in the user’s preferences, making API calls to Yelp and Google Places, and then makes some choices about which options to return to the user. This was my first time doing web development and using APIs, so there was a bit of a learning curve, but it was a great opportunity to develop a project completely from scratch. </p>
+									<p>A place to showcase </p>
 
-									<p>Tools: JavaScript, HTML, CSS, Node.JS </p>
+									<p>Tools: JavaScript, HTML, CSS</p>
 
-									<p>Made for Senior Project Course, CS 294S: Research Project in Software Systems and Security</p>
+									<p>Made for fun</p>
 								</header>
 								<footer class="major">
 									<ul class="actions special">
