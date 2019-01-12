@@ -2955,12 +2955,6 @@ input, select, textarea {
   		width: 50%;
 	}
 
-		.diyhover .image {
-		  display: block;
-		  width: 100%;
-		  height: auto;
-		}
-
 		.diyhover .overlay {
 		  position: absolute;
 		  top: 0;
