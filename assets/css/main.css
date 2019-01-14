@@ -2876,6 +2876,10 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
+			.features1 li p{
+				font-size: 80%;
+			}
+
 		@media screen and (max-width: 980px) {
 
 			.features1 li {
@@ -3682,7 +3686,7 @@ input, select, textarea {
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		/*background-color: rgba(247, 247, 247, 0.95);*/
-		background-color: #00CED1;
+		background-color: #9bb2e1;
 		opacity: 0.50;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
@@ -3784,7 +3788,7 @@ input, select, textarea {
 			top: 0;
 			padding: 0.5em 1em;
 			/*background-color: rgba(247, 247, 247, 0.95);*/
-			background-color: #00CED1;
+			background-color: #9bb2e1;
 			opacity: 0.80;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
