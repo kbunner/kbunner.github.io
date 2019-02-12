@@ -1959,7 +1959,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cc9f0;
+			background-color: #c79cc8;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -1977,7 +1977,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7ec3ee;
+				background-color: #c79cc8;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -3261,6 +3261,37 @@ input, select, textarea {
 				}
 
 		}
+
+/* Panel */
+
+#panel, .flip {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  border: solid 1px #efa8b0;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+	#panel, .flip, .major h2{
+		font-size: 12px;
+		font: black;
+	}
+
+#panel {
+  display: none;
+}
+
+	#panel section{
+		display: none;
+	}
+
+	#panel p{
+		font-size: 14px;
+	}
+
 
 /* Tiles */
 
