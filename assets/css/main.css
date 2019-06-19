@@ -3964,9 +3964,9 @@ input, select, textarea {
 		cursor: default;
 		/*text-align: center;*/
 		display: flex;
-		height: 4rem;
+		/*height: 4rem;*/
 		line-height: 4rem;
-		overflow: hidden;
+		/*overflow: hidden;*/
 		padding: 0 2rem 0 0;
 		max-width: 72rem;
 		z-index: 2;
@@ -4005,13 +4005,15 @@ input, select, textarea {
 			padding-top: 4.25em;
 		}
 
-		/*#nav ul {
+		#nav ul.projects {
 			margin: 0;
 			padding: 0;
 			list-style: none;
+			text-align: center;
+			display: inline-block;
 		}
 
-			#nav ul li {
+			#nav ul.projects li {
 				-moz-transition: margin 0.2s ease;
 				-webkit-transition: margin 0.2s ease;
 				-ms-transition: margin 0.2s ease;
@@ -4022,7 +4024,7 @@ input, select, textarea {
 				vertical-align: middle;
 			}
 
-				#nav ul li p {
+				#nav ul.projects li p {
 					-moz-transition: font-size 0.2s ease;
 					-webkit-transition: font-size 0.2s ease;
 					-ms-transition: font-size 0.2s ease;
@@ -4038,7 +4040,7 @@ input, select, textarea {
 					color: #00CED1;
 				}			
 
-				#nav ul li a {
+				#nav ul.projects li a {
 					-moz-transition: font-size 0.2s ease;
 					-webkit-transition: font-size 0.2s ease;
 					-ms-transition: font-size 0.2s ease;
@@ -4052,16 +4054,17 @@ input, select, textarea {
 					box-shadow: inset 0 0 0 1px transparent;
 				}
 
-					#nav ul li a:hover {
+					#nav ul.projects li a:hover {
 						background-color: rgba(222, 222, 222, 0.25);
 					}
 
-					#nav ul li a.active {
+					#nav ul.projects li a.active {
 						background-color: #ffffff;
 						box-shadow: none;
-					}*/
+					}
 
 		#nav ul.links {
+			overflow: hidden;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -4097,6 +4100,7 @@ input, select, textarea {
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
+					border-bottom: none;
 				}
 
 					#nav ul.links li a:hover {
