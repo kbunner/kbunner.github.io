@@ -30,44 +30,112 @@
 					<div id="main">
 
 						<section class="tiles">
-							<article class="style2">
+							<article class="style2" id="1" onclick="showInternship(this.id)">
 								<span class="image">
 									<img src="images/pic02.jpg" alt="" />
 								</span>
-								<a href="internships.html#pwc">
+								<a>
+								<!-- <a href="internships.html#pwc"> -->
 								<h2><b>PwC</b></h2>
 								<h3>Cybersecurity & Software <br /> Engineering Intern</h3>
 								<div class ="content">
-									<p>Worked for a large tech company client on their Bug Bounty Program where I helped mitigate reported vulnerabilities, as well as developing an automation tool to more efficiently push reported bugs through the fixing process. </p>
+									<p>Worked for a large tech company client on their Bug Bounty Program where I helped mitigate reported vulnerabilities, as well as developing an automation tool to more efficiently push reported bugs through the fixing process. <br /> <i>Click for more.</i> </p>
 								</div>
 								</a>
 							</article>
-							<article class="style1">
+							<article class="style1" id="2"onclick="showInternship(this.id)">
 								<span class="image">
 									<img src="images/pic03.jpg" alt="" />
 								</span>
-								<a href="internships.html#raytheon">
+								<a>
+								<!-- <a href="internships.html#raytheon"> -->
 									<h2><b>Raytheon</b></h2>
 									<h3>Software Engineering Intern</h3>
 									<div class="content">
-										<p>Developed static analysis checkers in C++ with Coverity Software and created a database of best practice guidelines for hardware components based off recent publications. </p>
+										<p>Developed static analysis checkers in C++ with Coverity Software and created a database of best practice guidelines for hardware components based off recent publications. <br /> <i>Click for more.</i> </p>
 									</div>
 								</a>
 							</article>
-							<article class="style5">
+							<article class="style5" id="3" onclick="showInternship(this.id)">
 								<span class="image">
 									<img src="images/pic01.jpg#cisac" alt="" />
 								</span>
-								<a href="internship.html">
+								<a>
+								<!-- <a href="internship.html"> -->
 									<h2><b>Stanford CISAC</b></h2>
 									<h3>Cybersecurity Reserch Intern</h3>
 									<div class="content">
-										<p> Worked under the instruction of Dr. Herb Lin, Senior Researcher in Cyber Policy and Security, constructing cybersecurity related data such as policy briefings and educational papers on topics like attribution and health.</p>
+										<p> Worked under the instruction of Dr. Herb Lin, Senior Researcher in Cyber Policy and Security, constructing cybersecurity related data such as policy briefings and educational papers on topics like attribution and health. <br /> <i>Click for more.</i></p>
 									</div>
 								</a>
 							</article>
+							
 						</section>
-					
+
+						<div id="panel">
+							<section id="pwc" class="main special">
+								<header class="major">
+									<h2><b>Cybersecurity and Software Engineering Intern | Summer 2018</b> </h2>
+								</header>
+								<p>I spent 12 weeks working for PwC’s advisory in their cybersecurity practice. My client was a large tech company and I worked on their Bug Bounty program, focusing mostly on web vulnerabilities. I also developed an automation tool in JavaScript to help improve the efficiency of assigning reported vulnerabilities to their correct owner. <br />
+								My work was well-received and at the end of the summer I was evaluated at the highest-level, along with an offer for full-time employment.</p>
+								<div class="box alt">
+									<div class="row gtr-uniform">
+										<div class="col-4"><span class="image fit"><img src="images/work/pwc.jpg" alt="" /></span></div>									
+										<div class="col-8">
+											<ul class="features">
+											<li>
+												<h2>Bug Bounty</h2>
+												<p>Working on Bug Bounty I gained incredible exposure to real-life security vulnerabilities. The work focused mainly on web vulnerabilities like XSS and subdomain takeovers. I was involved in the process from beginning to end- triaging vulnerabilities reported on HackerOne, assigning fixers or helping write defenses myself, and validating the solutions of over a dozen bugs. </p>
+											</li>
+											<li>
+												<h2>Automation Tool</h2>
+												<p>Assigning tickets for fixing was often a tedious process that required checking multiple sources before an assignee could be determined. As a solution, I built a dynamic web tool automate parts of this search process. Using Google Apps Script and Python, I created a tool to perform API calls, parse the information, and map the data to locate the owner of domains. While it was just a prototype, the feedback on the tool was and plans were made to build it out further.</p>
+											</li>
+										</ul>
+										</div>
+										<div>
+											<p>Spending a summer with PwC was an incredible experience because they care a lot about developing their people, including their interns. Over the summer we were given opportunities to network with leaders throughout the firm, receive mentoring from people at all levels of their career, and participate in a nation wide case competition. At the completion of the internship, I received an offer for full-time employment which included a week-long trip to Disney World with everyone else who received an offer. This trip was jam packed with networking, team-building, and professional development opportunities. </p>
+										</div>				
+									</div>
+								</div>
+							</section>
+
+							<section id="raytheon" class="main special">
+								<header class="major">
+									<h2><b>Software Engineering Intern | Summer 2017</b> </h2>
+								</header>
+								
+								<p>I spent my summer in LA working for Raytheon’s Space and Airborne Systems Business. I have always been interested in space and working at an aerospace company only fueled my enthusiasm. Over the summer I developed a series of static analysis checkers using C++, as well as compiling guidelines for next-generation best practices in Hardware based on recent publications. At the end of the summer I was chosen to represent the cyber interns and present my work to regional management. </p>
+								<div class="box alt">
+									<div class="row gtr-uniform">									
+										<div class="col-8">
+											<ul class="features">
+												<li>
+													<h2>Coverity Checkers</h2>
+													<p>Using Scrum methodology, I worked with a team to extend Coverity Software coverage through the development of a series of static analysis checkers in C++, which detect security vulnerabilities in internal code bases written in C.</p>
+												</li>
+												<li>
+													<h2>Cyber Guidelines</h2>
+													<p>I produced a database of next-generation best practice guidelines for hardware components based on recent publications on cyber countermeasures in control-flow integrity and hardware debugging. </p>
+												</li>
+											</ul>
+										</div>
+										<div class="col-4"><span class="image fit"><img src="images/work/ray.png" alt="" /></span></div>
+										<div>
+											<p>Spending a summer at Raytheon was a great opportunity to take a step out of my comfort zone. I moved to LA know 0 people there, and spent the summer exploring and making new friends along with learning about software engineering. I participated in the summer aerospace games, a friendly competition between aerospace companies on the beach and spent a lot of time outside </p>
+										</div>			
+									</div>
+								</div>
+							</section>
+
+							<section id="cisac" class="main special">
+								<header class="major">
+									<h2><b>Cybersecurity Research Intern | Summer 2016 </b> </h2>
+								</header>
+								<p>I was lucky enough to take a seminar class with Dr. Herb Lin during the Winter of my sophomore year through Stanford’s Center for International Security and Cooperation. I was fascinated by Herb’s work, and his class was a huge motivation for my ultimate decision to major in computer science. Following this seminar, Dr. Lin invited me to spend the summer working for him. I proof read some of his papers, helped create content for his work on health-care related security, and created an archive of current events related to cyber security.</p>
+							</section>
+						</div>
 					</div>
 			</div>
 
@@ -79,6 +147,86 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+			var showPanel = false;
+			var pCount = 0;
+			var rCount = 0;
+			var cCount = 0;
+			var lastClicked = 0;
+
+			function showInternship(iId) {
+				// debugger;
+				if (iId === "1"){
+					//Currently hidden, want to show.
+					if (lastClicked === 1 && pCount % 2 == 0){
+						document.getElementById("panel").style.display = "none";
+						
+					} else{
+						document.getElementById("panel").style.display = "block";
+						document.getElementById("pwc").style.display = "block";
+						document.getElementById("raytheon").style.display = "none";
+						document.getElementById("cisac").style.display = "none";
+					}
+					lastClicked = 1;
+					pCount++;
+				}
+				if (iId === "2"){
+					if (lastClicked === 2 && rCount % 2 == 0){
+						document.getElementById("panel").style.display = "none";
+					} else{
+						document.getElementById("panel").style.display = "block";
+						document.getElementById("pwc").style.display = "none";
+						document.getElementById("raytheon").style.display = "block";
+						document.getElementById("cisac").style.display = "none";
+					}
+					lastClicked = 2;
+					rCount++;
+				}
+				if (iId === "3"){
+					if (lastClicked === 3 && cCount % 2 == 0){
+						document.getElementById("panel").style.display = "none";
+						
+					} else{
+						document.getElementById("panel").style.display = "block";
+						document.getElementById("pwc").style.display = "none";
+						document.getElementById("raytheon").style.display = "none";
+						document.getElementById("cisac").style.display = "block";
+					}
+					lastClicked = 3;
+					cCount++;
+				}
+			}
+			</script>
+<!-- 			<script>
+			function showRaytheon() {
+				var y = document.getElementById("panel");
+				debugger;
+				if (x.style.display == "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+				document.getElementById("panel").style.display = "block";
+				document.getElementById("pwc").style.display = "none";
+				document.getElementById("raytheon").style.display = "block";
+				document.getElementById("cisac").style.display = "none";
+			}
+			</script>
+			<script>
+			function showCisac() {
+				var x = document.getElementById("panel");
+				debugger;
+				if (x.style.display == "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+				document.getElementById("panel").style.display = "block";
+				document.getElementById("pwc").style.display = "none";
+				document.getElementById("raytheon").style.display = "none";
+				document.getElementById("cisac").style.display = "block";
+			}
+			</script> -->
 
 	</body>
 </html>

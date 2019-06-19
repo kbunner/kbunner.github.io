@@ -21,13 +21,16 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="home.html#first">home</a></li>
-							<li><a href="#yupik" class="active">translator tool</a></li>
-							<li><a href="#dora">senior project</a></li>
-							<li><a href="#skull">skull</a></li>
-							<li><a href="#chat">chatbot</a></li>
-							<li><a href="#reducer">map reducer</a></li>
+							<li><a href="home.html">home</a></li>
+							<li><a href="#yupik">translator tool</a></li>
+							<li><a href="#heart">ml classifier</a></li>
 							<li><a href="#security">web security</a></li>
+							<li><a href="#chat">chatbot</a></li>
+							<li><a href="#skull">skull</a></li>
+							<li><a href="#reducer">map reducer</a></li>
+							<li><a href="#photo">photo app</a></li>
+							<li><a href="#dora">senior project</a></li>
+							<li><a href="#encrypt">encrypted chat</a></li>
 							<li><a href="#bunny">bunny world app</a></li>
 							<li><a href="#kb">kb</a></li>
 						</ul>
@@ -44,38 +47,71 @@
 											<h2>Yup'ik / English Language Translation Tool</h2>
 											<h3>Project awarded First Place at the <br /> 2017 AISES National Conference miniHackathon</h3>
 										</header>
-										<div>
-											<div class="box alt">
-												<div class="row gtr-uniform">												
-													<div class="col-8">
-														<p><b>Overview:</b> As part of the AISES National Conference miniHackathon, my team built the first iteration of what went on to be Yugtun. The goal was to create a <b>web application</b> to process <b>translations between Yup’ik, a Native Alaskan language, and English</b>. </p>
-														<p>During the Hackathon, I created a Python script to <b>parse a PDF document</b> of rough Yup’ik/English translations and used this to <b>construct the backend data structure</b>. This was challenging as many Yup'ik words and characters do not have English translations. Like many Native American languages, the Yup’ik language has few living speakers left, therefore, language revitalization efforts are critical to preserve the language. Our goal was to begin the process of <b>creating a more accessible and comprehensive translation tool</b> to preserve the Yup’ik language. One of our team members continued working on the project and the current form of it can be found <a href="http://www.yugtun.com/">here</a> or at the link below.</p>
-														<p>Tools: Python</p>
-														<a href="http://www.yugtun.com/" class="button">Yugtun Webpage</a>
-													</div>
-
-													<div class="col-4"><span class="image fit"><img src="images/hack.jpg" alt="" /></span></div>				
-												</div>
-											</div>
-										</div>
+											<p><b>Overview:</b> As part of the AISES National Conference miniHackathon, my team built the first iteration of what went on to be Yugtun. The goal was to create a <b>web application</b> to process <b>translations between Yup’ik, a Native Alaskan language, and English</b>. </p>
+											<p>During the Hackathon, I created a Python script to <b>parse a PDF document</b> of rough Yup’ik/English translations and used this to <b>construct the backend data structure</b>. This was challenging as many Yup'ik words and characters do not have English translations. Like many Native American languages, the Yup’ik language has few living speakers left, therefore, language revitalization efforts are critical to preserve the language. Our goal was to begin the process of <b>creating a more accessible and comprehensive translation tool</b> to preserve the Yup’ik language. One of our team members continued working on the project and the current form of it can be found <a href="http://www.yugtun.com/">here</a> or at the link below.</p>
+											<p>Tools: Python</p>
+											<a href="http://www.yugtun.com/" class="button">Current Yugtun Webpage</a>
 									</div>
 								</div>
 							</section>
 
-						<!-- Dora -->
-							<section id="dora" class="main special">
+						<!-- Arrhythmia TODO-->
+						<section id="arrhythmia" class="main special">
+							<div class="major">
+								<div class="content">
+									<header class="major">
+										<h2>Machine Learning Classifier to Identify Heart Arrhythmia</h2>
+									</header>
+										<p><b>Overview: </b>Built binary and multi-class Logstic Regression, Support Vector Machines, and Neural Network models to predict the presence of heart arrhythmia based on EKG's, and classify the type of arrhythmia when they were present. </p>
+										<p></p>
+										<p>Tools: Python</p>
+										<p>Made for final project of CS 229A: Applied Machine Learning</p>
+									<footer class="major">
+										<ul class="actions special">
+											<li><a href="#" class="button">Poster</a></li>
+											<li><a href="#" class="button">GitHub</a></li>
+										</ul>
+									</footer>
+								</div>
+							</div>
+						</section>
+
+						<!-- Web Security -->
+							<section id="security" class="main special">
 								<header class="major">
-									<h2>Dora</h2>
-									<b>Overview:</b> Dora was a <b>dynamic web application</b> built for my Senior Project designed to make planning a visit to a new place easier. Dora allows users to enter a location and a variety of preferences and receive three suggestions for different meals or activities. </p>
+									<h2>Web Security</h2>
 								</header>
-								<p>The motivating idea was that while there are an abundance of resources to help plan and find places to do while traveling, the amount of choices available can sometimes be overwhelming. Our application takes in preferences, learns over time, and gives the user 3 option rather than hundreds. The backend works by <b>taking in the user’s preferences, making API calls</b> to Yelp and Google Places, and then makes some choices about which options to return to the user. This was my <b>first time doing web development and using APIs</b>, so there was a bit of a learning curve and a lot of self teaching, but it was a great opportunity to <b>develop a project completely from scratch</b>. </p>
+									<p><b>Overview:</b> This two-part project helped introduce various <b>OWASP Top 10</b> web vulnerabilities by having us first <b>perform a series of hacks</b> and then <b>implement preventions to defend</b> these web attacks. </p>
+								
+								<p>The web application we were interacting with was a banking website which allowed users to manage a new type of cryptocurrency. They could create accounts, transfer the currency to other users, and view user profiles. The web app ran in a Docker container.. Some of the attacks were things like, cookie theft and <b>account hijacking with cookies</b>, <b>Cross Site Forgery Request</b> to allow the attacker to transfer money to its account from another user’s account, SQL injection, and a worm which would be triggered if a user viewed an infected profile, initially the attackers. It would then force the victim to send the attacker money and update the victim’s profile to also contain the worm. </p>
 
-								<p>Tools: JavaScript, HTML, CSS, Node.JS </p>
+								<p>Tools: JavaScript, HTML, C++, Docker</p>
 
-								<p>Made for Senior Project Course, <b>CS 294S: Research Project in Software Systems and Security</b></p>
+								<p>Made for <b>CS 155: Computer and Network Security</b></p>
+								
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="https://github.com/eniasebiomo/dora" class="button">GitHub</a></li>
+										<li><a href="#" class="button">Coming Soon</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Chatbot -->
+							<section id="chat" class="main special">
+								<header class="major">
+									<h2>Chatbot: Movie Suggestor</h2>
+								</header>
+								<p><b>Overview:</b> This project is an interactive Chatbot on the terminal that recommends movies based on the <b>user’s preferences and sentiment</b>. To do this it incorporated algorithms like <b>Naive Bayes, Porter Stemmer, regular expressions, spell check, and logarithmic based recommendations.</b> </p>
+								
+								<p>To make the recommendations, the Chatbot would ask the user to list 3 movies they have seen and what they thought about them. It would parse the input, determine how positive or negative they felt about each movie, and store it in a dict structure. The Chatbot had access to a database with thousands of motive titles, year released, and three genre adjectives. Once they had an idea of what the user’s interests were, it would use a Page Rank style algorithm to suggest new films to the user. This was a pair programming project and <b>some of my biggest contributions were determining the sentiment, parsing out the movie title, and implementing the spell check.</b>  </p>
+
+								<p>Tools: Python </p>
+
+								<p>Made for final project of CS 124: From Languages to Information (NLP)</p>
+								
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="#" class="button">Coming Soon</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -114,26 +150,6 @@
 								</footer>
 							</section>
 
-						<!-- Chatbot -->
-							<section id="chat" class="main special">
-								<header class="major">
-									<h2>Chatbot: Movie Suggestor</h2>
-								</header>
-								<p><b>Overview:</b> This project is an interactive Chatbot on the terminal that recommends movies based on the <b>user’s preferences and sentiment</b>. To do this it incorporated algorithms like <b>Naive Bayes, Porter Stemmer, regular expressions, spell check, and logarithmic based recommendations.</b> </p>
-								
-								<p>To make the recommendations, the Chatbot would ask the user to list 3 movies they have seen and what they thought about them. It would parse the input, determine how positive or negative they felt about each movie, and store it in a dict structure. The Chatbot had access to a database with thousands of motive titles, year released, and three genre adjectives. Once they had an idea of what the user’s interests were, it would use a Page Rank style algorithm to suggest new films to the user. This was a pair programming project and <b>some of my biggest contributions were determining the sentiment, parsing out the movie title, and implementing the spell check.</b>  </p>
-
-								<p>Tools: Python </p>
-
-								<p>Made for final project of CS 124: From Languages to Information (NLP)</p>
-								
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="#" class="button">Coming Soon</a></li>
-									</ul>
-								</footer>
-							</section>
-
 						<!-- Map Reducer -->
 							<section id="reducer" class="main special">
 								<header class="major">
@@ -148,24 +164,60 @@
 								<p>Made for <b>CS 110: Principles of Computer Systems</b></p>
 							</section>
 
-							<!-- Web Security -->
-							<section id="security" class="main special">
+						<!-- Photo App -->
+							<section id="photo" class="main special">
 								<header class="major">
-									<h2>Web Security</h2>
+									<h2>Web Photo App</h2>
 								</header>
-									<p><b>Overview:</b> This two-part project helped introduce various <b>OWASP Top 10</b> web vulnerabilities by having us first <b>perform a series of hacks</b> and then <b>implement preventions to defend</b> these web attacks. </p>
+									<p><b>Overview:</b> A multi-part full stack project to create a single page web application, which mimicked a photo sharing app. We created new components, implemented dynamic view switching, and implemented a server to communicate with a database to fetch data and hold sessions.</p>
 								
-								<p>The web application we were interacting with was a banking website which allowed users to manage a new type of cryptocurrency. They could create accounts, transfer the currency to other users, and view user profiles. The web app ran in a Docker container.. Some of the attacks were things like, cookie theft and <b>account hijacking with cookies</b>, <b>Cross Site Forgery Request</b> to allow the attacker to transfer money to its account from another user’s account, SQL injection, and a worm which would be triggered if a user viewed an infected profile, initially the attackers. It would then force the victim to send the attacker money and update the victim’s profile to also contain the worm. </p>
+								<p></p>
 
-								<p>Tools: JavaScript, HTML, C++, Docker</p>
+								<p>Tools: ReactJS, Node.js, MongoDB</p>
 
-								<p>Made for <b>CS 155: Computer and Network Security</b></p>
-								
+								<p>Made for final project of <b>CS 142: Web Applications</b> </p>
+<!-- 								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://github.com/ashi-agrawal/bunny-world" class="button">GitHub</a></li>
+									</ul>
+								</footer> -->
+							</section>
+
+						<!-- Dora -->
+							<section id="dora" class="main special">
+								<header class="major">
+									<h2>Dora</h2>
+									<b>Overview:</b> Dora was a <b>dynamic web application</b> built for my Senior Project designed to make planning a visit to a new place easier. Dora allows users to enter a location and a variety of preferences and receive three suggestions for different meals or activities. </p>
+								</header>
+								<p>The motivating idea was that while there are an abundance of resources to help plan and find places to do while traveling, the amount of choices available can sometimes be overwhelming. Our application takes in preferences, learns over time, and gives the user 3 option rather than hundreds. The backend works by <b>taking in the user’s preferences, making API calls</b> to Yelp and Google Places, and then makes some choices about which options to return to the user. This was my <b>first time doing web development and using APIs</b>, so there was a bit of a learning curve and a lot of self teaching, but it was a great opportunity to <b>develop a project completely from scratch</b>. </p>
+
+								<p>Tools: JavaScript, HTML, CSS, Node.JS </p>
+
+								<p>Made for Senior Project Course, <b>CS 294S: Research Project in Software Systems and Security</b></p>
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="#" class="button">Coming Soon</a></li>
+										<li><a href="https://github.com/eniasebiomo/dora" class="button">GitHub</a></li>
 									</ul>
 								</footer>
+							</section>
+
+						<!-- Encypted Chat -->
+							<section id="encrypt" class="main special">
+								<header class="major">
+									<h2>End-to-End Encrypted Chat</h2>
+								</header>
+									<p><b>Overview:</b> Worked with another student to implement a secure and efficient end-to-end encrypted chat client using the Double Ratchet Algorithm </p>
+								
+								<p></b> </p>
+
+								<p>Tools: C++</p>
+
+								<p>Made for <b>CS 255: Introduction to Cryptography</b> </p>
+								<!-- <footer class="major">
+									<ul class="actions special">
+										<li><a href="https://github.com/ashi-agrawal/bunny-world" class="button">GitHub</a></li>
+									</ul>
+								</footer> -->
 							</section>
 
 						<!-- Bunny World -->
