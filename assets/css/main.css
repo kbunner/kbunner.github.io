@@ -3703,7 +3703,7 @@ input, select, textarea {
 				/*font-family: 'Alex Brush', cursive;*/
 				font-family: 'Great Vibes', cursive;
 				/*font-family: 'Parisienne', cursive;*/
-				font-size: 3.25em;
+				font-size: 5vw;
 				text-align: center;
 				position: relative;
 				line-height: 0.5;
@@ -3714,9 +3714,10 @@ input, select, textarea {
 					content: '';
 					display: inline-block;
 					position: absolute;
-					height: 5px;
-					width: 275px;
-					border-top: solid 2px;
+					height: 15px;
+					width: 25%;
+					/*border-top: solid 2px;*/
+					border-bottom: solid 2px;
 				}
 
 				#header.alt h2:before {
